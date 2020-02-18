@@ -1,6 +1,5 @@
 import prob_loader as loader
 import vrp_modules as vrp
-import google_solver as google
 import disp_rule as dr
 
 
@@ -9,6 +8,7 @@ def main():
     solution1 = dr.solve_dr_vi(new_instance)
     solution2 = dr.solve_dr_ti(new_instance)
     print("End of Program")
+    print('Mine')
 
 
 if __name__ == '__main__':
